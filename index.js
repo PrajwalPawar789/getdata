@@ -10,9 +10,9 @@ const PORT = 3047;
 // PostgreSQL pool configuration
 const pool = new Pool({
   user: "postgres",
-  host: "158.220.121.203",
-  database: "postgres",
-  password: "P0stgr3s%098",
+  host: "localhost",
+  database: 'supppression-db',
+  password: "root",
   port: 5432,
 });
 
